@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/F4-contest-Shopping-Cart-Functionality/static/css/main.7afd60bc.css",
+    "main.js": "/F4-contest-Shopping-Cart-Functionality/static/js/main.d9784c86.js",
+    "static/js/787.954ee95d.chunk.js": "/F4-contest-Shopping-Cart-Functionality/static/js/787.954ee95d.chunk.js",
+    "index.html": "/F4-contest-Shopping-Cart-Functionality/index.html",
+    "main.7afd60bc.css.map": "/F4-contest-Shopping-Cart-Functionality/static/css/main.7afd60bc.css.map",
+    "main.d9784c86.js.map": "/F4-contest-Shopping-Cart-Functionality/static/js/main.d9784c86.js.map",
+    "787.954ee95d.chunk.js.map": "/F4-contest-Shopping-Cart-Functionality/static/js/787.954ee95d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7afd60bc.css",
+    "static/js/main.d9784c86.js"
+  ]
+}
