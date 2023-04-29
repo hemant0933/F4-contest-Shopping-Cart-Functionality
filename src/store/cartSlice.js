@@ -21,13 +21,13 @@ const cartSlice = createSlice({
         remove(state, action) {
            return state.filter(item => item.id !== action.payload)
         },
-        total(state,action) {
-            return state.reduce((currenItem) => (currenItem.price + action.payload),0)
-        }
+        // total(state,action) {
+        //     return state.reduce((currenItem) => (currenItem.price + action.payload),0)
+        // }
     }
 })
 
-export const {add,remove,total} = cartSlice.actions;
+export const {add,remove} = cartSlice.actions;
 export default cartSlice.reducer;
 
 // in the earlier version action and state are created seprately 
