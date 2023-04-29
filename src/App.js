@@ -12,8 +12,9 @@ function App() {
      <Provider store={store}>
         <BrowserRouter>
               <Navbar/>
-              <Route exact path="/"  element={<Home/>} ></Route>
+              
               <Routes>
+                <Route exact path="/"  element={<Home/>} ></Route>
                 <Route path="/cart" element={<Cart/>} ></Route>
               </Routes>
           </BrowserRouter>

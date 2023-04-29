@@ -20,8 +20,7 @@ const Cart = () => {
       
         <div className='cartWrapper'>
           <h1 style={{textAlign:'left'}}>Cart</h1>
-          {
-              productsArr.map((k) => (
+          {productsArr.map((k) => (
               <div className='cartCard' key={new Date().getTime + Math.random()}>
                 <img src={k.image} alt='imageCard'/>
                 <h5>{k.title}</h5>

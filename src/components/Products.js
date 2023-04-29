@@ -1,7 +1,7 @@
 import React, { useEffect} from 'react';
 import { add } from '../store/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts } from '../store/productSlice';
+import { fetchProducts} from '../store/productSlice';
 import { STATUSES } from '../store/productSlice';
 
 const Products = () => {
@@ -43,8 +43,7 @@ const Products = () => {
   }
     return (
         <div className='productsWrapper'> 
-                {
-                    products.map((product) => (
+                {products.map((product) => (
                         <div className='card' key={new Date().getDate + Math.random()}>
                             <img src={product.image} alt='productImage'/>
                             <h4>{product.title}</h4>
