@@ -11,7 +11,7 @@ const Cart = () => {
       dispatch(remove(k_ID))
   }
  
-let sum = [];
+// let sum = [];
 
   return (
     <div style={{display:'flex',alignItems:'center',justifyContent:'center',width:'100%',marginTop:'30px',flexDirection:'column'}}>
@@ -43,8 +43,7 @@ let sum = [];
                   )
                }
               </ul>
-              <p></p>
-             
+              {/* <p></p> */}
             </div>  
         </div>
       </div>
